@@ -6,6 +6,8 @@ on:
 
 permissions:
   contents: write # Required to deploy to GitHub Pages
+  pages: write
+  id-token: write  # Required for deploy-pages
 
 jobs:
   deploy:
