@@ -16,6 +16,8 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
     
       - name: Upload 'site/' folder
         uses: actions/upload-pages-artifact@v3
