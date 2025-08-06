@@ -2,7 +2,7 @@ name: Matrix Build Demo
 
 on:
   push:
-    branches: [main]
+    branches: [matrix-composite-actions]
   pull_request:
 
 jobs:
